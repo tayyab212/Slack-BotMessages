@@ -9,7 +9,7 @@ namespace SlackBotMessages.Tests
     public class BasicTests
     {
         private static string WebHookUrl =>
-            "https://hooks.slack.com/services/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";
+            "yourslackurl";
 
         /// <summary>
         ///     A simple example of a message which looks like it has been send by an alien
