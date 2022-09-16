@@ -1,0 +1,12 @@
+/SlackBotMessages/bin/Debug
+/SlackBotMessages/bin/Release
+/SlackBotMessages/obj
+/.vs
+/packages
+/SlackBotMessages.Tests/bin/Debug
+/SlackBotMessages.Tests/obj/Debug
+/*.nupkg
+/.idea
+/SlackBotMessages.Tests/obj
+/SlackBotMessages.Tests/log.txt
+/SlackBotMessages/log.txt

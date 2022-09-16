@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard1.2</TargetFramework>
+        <Version>2.0.1</Version>
+        <Description>A library for sending rich formatted Slack Bot Messages. Works with .NET Core, .NET Standard and .NET Framework.</Description>
+        <Authors>Paul Seal</Authors>
+        <Copyright>Copyright 2019</Copyright>
+        <PackageProjectUrl>https://github.com/prjseal/SlackBotMessages/</PackageProjectUrl>
+        <PackageIconUrl>https://github.com/prjseal/SlackBotMessages/blob/master/sbmlogo.jpg?raw=true</PackageIconUrl>
+        <RepositoryUrl>https://github.com/prjseal/SlackBotMessages/</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReleaseNotes>- created SendAsync method which is fully async
+      - created BasicTestsAsync class to test new fully async
+      - left original Send method in place to avoid breaking changes
+      - Send richly formatted messages with attachments
+      - Works with .NET Core, .NET Standard and .NET Framework</PackageReleaseNotes>
+        <PackageLicenseUrl>https://github.com/prjseal/SlackBotMessages/blob/master/License.md</PackageLicenseUrl>
+        <PackageTags>Slack,Bot,Messages,Messaging,WebRequest,WebHook,Attachments,SlackBot,SlackMessages</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+      <PackageReference Include="NuGet.Build" Version="2.12.1" />
+      <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
+    </ItemGroup>
+
+</Project>
